@@ -1,0 +1,15 @@
+name: sgxl_minimal
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9.18
+  - pytorch=2.1.1
+  - torchvision=0.16.1
+  - pytorch-cuda=11.8
+  - pip
+  - requests=2.26.0
+  - ninja=1.10.2
+  - click=8.1.7
+  - pip:
+    - notebook
